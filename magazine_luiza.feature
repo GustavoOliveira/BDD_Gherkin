@@ -1,10 +1,9 @@
 #language: pt
  
-Funcionalidade: Carrinho
-    Cenário: Adicionar produto ao carrinho
-        Dado que esteja na home do magazine luiza 
-        Quando pesquisar por computador
-        E abri o primeiro produto
-        E adicionar à sacola
-        E selecionar tipo de garantia 
-        Então deverá ser exibido a sacola
+Funcionalidade: Produto
+    Cenário: Adicionar produto ao carrinho pela busca
+        Dado que esteja na home 
+        Quando buscar por computador
+        E abrir o primeiro produto
+        E adicionar ao carrinho
+        Então o produto deverá ser adicionado no carrinho

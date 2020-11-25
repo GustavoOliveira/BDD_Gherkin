@@ -1,9 +1,9 @@
 #language: pt
  
-Funcionalidade: Pesquisar no Google
+Funcionalidade: Pesquisa
     Cenário: Pesquisar batata
-        Dado que esteja no site Google
+        Dado que esteja na home
         Quando pesquisar por batata
-        E ir na aba imagens
-        E clicar na primeira imagem
-        Então deverá ser exibido a imagem da batata 
+        E abrir a aba imagens
+        E abrir a primeira imagem
+        Então deverá ser exibido a imagem de uma batata 
