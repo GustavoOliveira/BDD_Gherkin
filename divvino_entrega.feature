@@ -3,8 +3,8 @@
 Funcionalidade: Entrega
     Contexto: 
         Dado que esteja logado
-        E que esteja na tela de checkout
         E que possua endereço cadastrado
+        E que esteja na tela de checkout
 
         Cenário: Selecionar endereço
             Quando selecionar endereço
